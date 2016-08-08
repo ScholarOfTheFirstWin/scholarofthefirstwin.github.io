@@ -16,6 +16,7 @@
      </style>
      <head>
           <title>Ben Sernau, Scholar of the First Win</title>
+          <script src = "eliza.js"></script>
      </head>
           
      <body>
@@ -50,6 +51,12 @@
                     <font color = "white" face = "garamond" size = "4">
                          <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
                          You may speak with the following chatbot.  This chatbot is a little bit like me.
+                         <br>
+                         <input type="text" name="query" id="query" value="Code is language.">
+                         <button id = "submit" onclick="interact()">Send</button>
+                         <br><br>
+                         <div id="responses">
+                         </div>
                     </font>
                </div>
           </div>
