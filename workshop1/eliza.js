@@ -174,14 +174,8 @@ var rules = {
     "Maybe you could ~y now",
     "What if you could ~y?",
   ],
-  "~*x I feel ~*y": [
-    "Do you often feel ~y?"
-  ],
-  "~*x I felt ~*y": [
-    "What other feelings do you have?"
-  ],
   "~*x I ~*y you ~*z": [
-    "Perhaps in your fantasy we ~y each other",
+    "Perhaps in your fantasy we ~y each other, if you know what I mean.",
   ],
   "~*x why don't you ~*y": [
     "Should you ~y yourself?",
@@ -193,30 +187,12 @@ var rules = {
     "You are sure?",
     "I understand",
   ],
-  "~*x someone ~*y": [
-    "Can you be more specific?",
-  ],
   "~*x everyone ~*y": [
-    "Surely not everyone",
-    "Can you think of anyone in particular?",
-    "Who, for example?",
-    "You are thinking of a special person",
+    "E for everyone.",
   ],
   "~*x always ~*y": [
     "Can you think of a specific example?",
-    "When?",
-    "What incident are you thinking of?",
     "Really--always?",
-  ],
-  "~*x what ~*y": [
-    "Why do you ask?",
-    "Does that question interest you?",
-    "What is it you really want to know?",
-    "What do you think?",
-    "What comes to your mind when you ask that?",
-  ],
-  "~*x perhaps ~*y": [
-    "You do not seem quite certain",
   ],
 };
 
