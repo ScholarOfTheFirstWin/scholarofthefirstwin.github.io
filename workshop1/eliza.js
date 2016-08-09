@@ -185,7 +185,7 @@ var rules = {
     "Can you think of a specific example?",
     "Really--always?",
   ],
-  "~*x What will we do with a drunken whaler early in the morning? ~*y": [
+  "~*x what will we do with a drunken whaler early in the morning ~*y": [
     "We could give him some coffee, I guess.",
   ],
 };
