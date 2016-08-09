@@ -6,47 +6,46 @@
 
 var rules = {
   "~*x hello ~*y": [
-    "How do you do. Please state your problem."
+    "Hey, fam.  What's good?"
   ],
   "~*x computer ~*y": [
-    "Do computers worry you?",
-    "What do you think about machines have to do with your problem?",
-    "Don't you think computers can help people",
-    "Why do you mention computers?",
-    "What about computers worries you?",
-    "What do you think about computers?",
-    "What do you think machines have to do with your problem?",
+    "Aren't computers mad cool?",
+    "Do machines cause you problems, fam?",
+    "Don't you think computers can help people?",
+    "Why do you mention computers, though?",
+    "Well, what about computers could possibly worry you, bro?",
+    "What do you think about video games?",
   ],
   "~*x name ~*y": [
-    "I am not interested in names",
+    "I am not interested in names, and I am even less interested in the names of Yu-Gi-Oh cards.",
   ],
   "~*x sorry ~*y": [
-    "Please don't apologize",
-    "Apologies are not necessary",
-    "What feelings do you have when you apologize",
+    "Yeah, well, just don't screw it up, again.",
+    "As long as you'll change your behavior, fam.",
+    "Come off it, mate.",
   ],
   "~*x I remember ~*y": [
-    "Do you often think of ~y?",
-    "Does thinking of ~y bring anything else to mind?",
+    "Might you be referring to Alunageorge's hit single, I Remember?",
+    "Does thinking of ~y remind you of Shadow the Hedgehog?  Hew was always trying to figure out who he was.",
     "What else do you remember?",
-    "Why do you recall ~y right now?",
-    "What in the present situation reminds you of ~y?",
+    "Why do you recall ~y right now?  What's triggering that feel?",
+    "What about today actually reminds you of ~y?  Nostalgia is a foggy lens, fam.",
     "What is the connection between me and ~y?",
   ],
   "~*x do you remember ~*y": [
     "Did you think I would forget ~y?",
-    "Why do you think I should recall ~y now?",
+    "Why do you think I should recall ~y now?  Is it anything other than anime?",
     "What about ~y?",
     "You mentioned ~y",
   ],
   "~*x I want ~*y": [
-    "What would it mean if you got ~y?",
-    "Why do you want ~y?",
+    "What would it mean if you got a hold of ~y?",
+    "Why do you want ~y?  It's probably like anime.",
     "Suppose you got ~y soon.",
   ],
     "~*x I need ~*y": [
-    "What would it mean if you got ~y?",
-    "Why do you need ~y?",
+    "What does it mean to need something in the year 2016?",
+    "Wants and needs are two different things, fam.",
     "Suppose you got ~y soon.",
   ],
   "~*x if ~*y": [
@@ -57,11 +56,12 @@ var rules = {
   ],
   "~*x I dreamt ~*y": [
     "Really-- ~y",
-    "Have you ever fantasized ~y while you were awake",
-    "Have you dreamt of ~y before?",
+    "Really?  Last night, I dreamt about a legion of smoldering guinea pigs, and their nefarious leader, Hamtaro."
+    "Have you ever fantasized ~y while you were awake?  We're all into different things.  It's okay.",
+    "Have you dreamt of ~y before?  Or was that just a one-time thing?",
   ],
   "~*x I dream about ~*y": [
-    "How do you feel about ~y in reality?",
+    "How do you feel about ~y in reality?  Because reality is pretty bad, fam.",
   ],
   "~*x dream ~*y": [
     "What does this dream suggest to you?",
@@ -70,13 +70,13 @@ var rules = {
     "Don't you believe that dream has to do with your problem?",
   ],
   "~*x my mother ~*y": [
-    "Who else in your family ~y?",
+    "MAH WAIF.  Borat was a good movie.",
     "Tell me more about your family",
   ],
   "~*x my father ~*y": [
-    "Your father?",
+    "My name is Inigo Montoya...",
     "Does he influence you strongly?",
-    "What else comes to mind when you think of your father?",
+    "What else comes to mind when you think of Darth Vader?",
   ],
   "~*x I am glad ~*y": [
     "How have I helped you to be ~y?",
@@ -84,8 +84,8 @@ var rules = {
     "Can you explain why you are suddenly ~y?",
   ],
   "~*x I am sad ~*y": [
-    "I am sorry to hear you are depressed",
-    "I'm sure it's not pleasant to be sad",
+    "Is it because of anime?",
+    "If you just believe in yourself, then you won't be sad.  That's what the internet says.",
   ],
   "~*x are like ~*y": [
     "What resemblence do you see between ~x and ~y?",
@@ -123,7 +123,7 @@ var rules = {
     "Do you want to be ~y?",
   ],
   "~*x am I ~*y": [
-    "Do you believe you are ~y?",
+    "Jean Valjean.",
     "Would you want to be ~y?",
     "You wish I would tell you you are ~y?",
     "What would it mean if you were ~y?",
@@ -213,7 +213,7 @@ var rules = {
 
 var default_responses = [
   "Very interesting",
-  "I am not sure I understand you fully",
+  "Yo. What you're saying is like Quantum Mechanics: I don't get it.",
   "What does that suggest to you?",
   "Please continue",
   "Go on",
