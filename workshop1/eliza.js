@@ -5,7 +5,7 @@
  */
 
 var rules = {
-  "~*x Hey! ~*y": [
+  "Hey!": [
     "Hey, fam.  What's good?",
   ],
   "~*x computer ~*y": [
