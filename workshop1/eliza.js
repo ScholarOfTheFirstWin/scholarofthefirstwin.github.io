@@ -56,7 +56,7 @@ var rules = {
   ],
   "~*x I dreamt ~*y": [
     "Really-- ~y",
-    "Really?  Last night, I dreamt about a legion of smoldering guinea pigs, and their nefarious leader, Hamtaro."
+    "Really?  Last night, I dreamt about a legion of smoldering guinea pigs, and their nefarious leader, Hamtaro.",
     "Have you ever fantasized ~y while you were awake?  We're all into different things.  It's okay.",
     "Have you dreamt of ~y before?  Or was that just a one-time thing?",
   ],
