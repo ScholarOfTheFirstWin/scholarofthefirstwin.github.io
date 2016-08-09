@@ -6,7 +6,16 @@
 
 var rules = {
   "~*x hello ~*y": [
-    "Hey, fam.  What's good?"
+    "Hey, fam.  What's good?",
+  ],
+  "~*x hey ~*y": [
+    "Hey, fam.  What's good?",
+  ],
+  "~*x Hey ~*y": [
+    "Hey, fam.  What's good?",
+  ],
+  "What will we do with a drunken whaler early in the morning?": [
+    "We could give him some coffee, I guess.",
   ],
   "~*x computer ~*y": [
     "Aren't computers mad cool?",
