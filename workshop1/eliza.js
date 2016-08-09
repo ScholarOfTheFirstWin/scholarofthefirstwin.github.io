@@ -190,6 +190,10 @@ var rules = {
   ],
 };
 
+var default_responses = [
+  "Please continue",
+];
+
 function choice(lst) {
   var i = Math.floor(Math.random() * lst.length);
   return lst[i];
