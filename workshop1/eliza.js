@@ -191,7 +191,8 @@ var rules = {
 };
 
 var default_responses = [
-  "Please continue",
+  "Please continue.",
+  "Go on.",
 ];
 function choice(lst) {
   var i = Math.floor(Math.random() * lst.length);
