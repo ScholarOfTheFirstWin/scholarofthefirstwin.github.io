@@ -8,9 +8,6 @@ var rules = {
   "~*x Hey! ~*y": [
     "Hey, fam.  What's good?",
   ],
-  "What will we do with a drunken whaler early in the morning?": [
-    "We could give him some coffee, I guess.",
-  ],
   "~*x computer ~*y": [
     "Aren't computers mad cool?",
     "Do machines cause you problems, fam?",
@@ -187,6 +184,9 @@ var rules = {
   "~*x always ~*y": [
     "Can you think of a specific example?",
     "Really--always?",
+  ],
+  "What will we do with a drunken whaler early in the morning?": [
+    "We could give him some coffee, I guess.",
   ],
 };
 
