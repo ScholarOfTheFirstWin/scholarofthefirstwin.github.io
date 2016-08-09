@@ -13,7 +13,7 @@ var rules = {
     "Well, what about computers could possibly worry you, bro?",
     "What do you think about video games?",
   ],
-  "~*x Hey ~*y": [
+  "~*x hey ~*y": [
     "Hey, fam. What's good?",
   ],
   "~*x name ~*y": [
