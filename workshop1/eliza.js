@@ -221,12 +221,9 @@ var rules = {
 };
 
 var default_responses = [
-  "Very interesting",
+  "Alright. Cool.",
   "Yo. What you're saying is like Quantum Mechanics: I don't get it.",
-  "What does that suggest to you?",
-  "Please continue",
-  "Go on",
-  "Do you feel strongly about discussing such things?",
+  "Please continue.",
 ];
 
 function choice(lst) {
