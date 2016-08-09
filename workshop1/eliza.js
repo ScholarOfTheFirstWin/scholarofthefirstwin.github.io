@@ -193,7 +193,6 @@ var rules = {
 var default_responses = [
   "Please continue",
 ];
-
 function choice(lst) {
   var i = Math.floor(Math.random() * lst.length);
   return lst[i];
@@ -208,11 +207,8 @@ function interact() {
   response = response[0].toUpperCase() + response.slice(1); //capitalize first letter
   var r = document.getElementById("responses");
   
-  var t = new Date();
-  var t2 = new Date();
-  t2.setSeconds(t2.getSeconds() + 2);
-  r.innerHTML = " USER &nbsp;[" + t + "]: " + q.value + "<br>" + r.innerHTML ;
-  r.innerHTML = " ELIZA [" + t2 + "]: <code>" + response + "</code><br>" + r.innerHTML ;
+  r.innerHTML = "YOU:&nbsp;" + q.value + "<br>" + r.innerHTML ;
+  r.innerHTML = "BENBOT: <code>" + response + "</code><br>" + r.innerHTML ;
   q.value = "";
 }
 
@@ -387,7 +383,8 @@ function is_segment(pattern) {
 function switch_viewpoint(words) {
   /* Swap some common pronouns for interacting with a robot. */
   var replacements = {'i': 'you', 'you': 'I', 'me': 'you',
-                      'my': 'your', 'am': 'are', 'are': 'am'};
+                      'my': 'your', 'am': 'are', 'are': 'am',
+                      'you\'re': 'I\'m', 'I\'m': 'you\'re',};
   var result = [];
   for (var i = 0; i < words.length; i++) {
     var word = words[i];
