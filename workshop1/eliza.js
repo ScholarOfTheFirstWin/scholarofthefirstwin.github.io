@@ -11,7 +11,7 @@ var rules = {
   "~*x hey ~*y": [
     "Hey, fam.  What's good?",
   ],
-  "~*x Hey ~*y": [
+  "~*x Hey! ~*y": [
     "Hey, fam.  What's good?",
   ],
   "What will we do with a drunken whaler early in the morning?": [
@@ -247,7 +247,7 @@ function interact() {
   var t2 = new Date();
   t2.setSeconds(t2.getSeconds() + 2);
   r.innerHTML = " USER &nbsp;[" + t + "]: " + q.value + "<br>" + r.innerHTML ;
-  r.innerHTML = " ELIZA [" + t2 + "]: <code>" + response + "</code><br>" + r.innerHTML ;
+  r.innerHTML = " BENBOT [" + t2 + "]: <code>" + response + "</code><br>" + r.innerHTML ;
   q.value = "";
 }
 
