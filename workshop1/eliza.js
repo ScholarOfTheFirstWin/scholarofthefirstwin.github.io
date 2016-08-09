@@ -190,12 +190,6 @@ var rules = {
   ],
 };
 
-var default_responses = [
-  "Alright. Cool.",
-  "Yo. What you're saying is like Quantum Mechanics: I don't get it.",
-  "Please continue.",
-];
-
 function choice(lst) {
   var i = Math.floor(Math.random() * lst.length);
   return lst[i];
