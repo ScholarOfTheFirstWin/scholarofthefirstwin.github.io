@@ -1,26 +1,67 @@
 <!DOCTYPE html>
+<!-- Bard College Language and Thinking 
+     Add some images to this page; try uploading your own image to github
+     
+     https://developer.mozilla.org/en-US/Learn/HTML/Multimedia_and_embedding/Images_in_HTML
+-->
+
 <html>
-
-<head>
-    <title>Linking Language and Thinking with Code</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
-    <div id="main">
-        <a href="http://www.bard.edu"><h3>Bard College</h3></a>
-
-        <h1>Linking <a href = "http://languageandthinking.bard.edu/">Language and Thinking</a> with Code</h1> Bard has introduced a computing component into <a href="http://languageandthinking.bard.edu/about">Language &
-	  Thinking</a>, its intensive writing program held during the three weeks before the first semester. The component exposes all first-year students to the power of code as language and computational thinking.
-
-	<ul>
-	  <li><a href = "workshop1/"> First Workshop: Reading and Writing the Web</a>; <a href = "http://bardcollege.github.io/github_tutorial.pdf">Getting started</a> with <a href = "https://github.com/bardcollege/bardcollege.github.io">Github</a></li>
-	  <li><a href = "dialogs/"> Computational Dialogues</a> </li>
-	  <li><a href = "workshop2/">Second Workshop: Code and Language</a> </li>
-	</ul>
-    </div>
-    
-</body>
-
+     <style>
+     body {
+          background-color: black;
+          }
+     div {
+          padding: 1em;
+          }
+     </style>
+     <head>
+          <title>Ben Sernau, Scholar of the First Win</title>
+          <script src = "workshop1/eliza.js"></script>
+     </head>
+          
+     <body>
+          <div>
+               <h1><font color = white face = "garamond" size = "12">Ben Sernau, Scholar of the First Win</font></h1>
+          </div>
+          <div>
+               <div>
+                    <img src = "../picOfBen.jpg" align = "right" width = "35%" height = "35%">
+               </div>
+               <div>
+                    <font color = white face = "garamond" size = "6">
+                         <br>
+                         <ul>
+                              <li>A writer who wants to play some video games...</li>
+                              <li>A computer science major from Westchester, New York...</li>
+                              <li>A developer whose websites are eyesores...</li>
+                         </ul>
+                    </font>
+               </div>
+               <div>
+                    <font color = white face = "garamond" size = "5">
+                    <br>
+                    For my senior project, I&rsquo;m working on a two-dimensional, side-scrolling game.  Here&rsquo;s a promotional still, brought to you by Ben-Thesda Softworks:
+                    <br><br><br>
+                    </font>
+               </div>
+               <div>
+                    <img src = "../PicForAboutMe.JPG" align = "left" width = "30%" height = "30%">
+               </div>
+               <div>
+                    <font color = white face = "garamond" size = "4">
+                         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                         You may speak with the following chatbot.  This chatbot is a little bit like me.
+                         <br><br>
+                         <input type="text" name="query" id="query" value="Hey!">
+                         <button id = "submit" onclick="interact()">Send</button>
+                         <br><br>
+                         <font color = purple face = "garamond" size = "4">
+                              <div id="responses">
+                                   <br><br><br>
+                              </div>
+                         </font>
+                    </font>
+               </div>
+          </div>
+     </body>
 </html>
