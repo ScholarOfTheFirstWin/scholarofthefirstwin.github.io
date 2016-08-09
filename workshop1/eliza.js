@@ -5,9 +5,6 @@
  */
 
 var rules = {
-  "Hey!": [
-    "Hey, fam.  What's good?",
-  ],
   "~*x computer ~*y": [
     "Aren't computers mad cool?",
     "Do machines cause you problems, fam?",
@@ -15,6 +12,9 @@ var rules = {
     "Why do you mention computers, though?",
     "Well, what about computers could possibly worry you, bro?",
     "What do you think about video games?",
+  ],
+  "Hey!": [
+    "Hey, fam.  What's good?",
   ],
   "~*x name ~*y": [
     "I am not interested in names, and I am even less interested in the names of Yu-Gi-Oh cards.",
@@ -43,7 +43,7 @@ var rules = {
     "Why do you want ~y?  It's probably like anime.",
     "Suppose you got ~y soon.",
   ],
-    "~*x I need ~*y": [
+  "~*x I need ~*y": [
     "What does it mean to need something in the year 2016?",
     "Wants and needs are two different things, fam.",
     "Suppose you got ~y soon.",
